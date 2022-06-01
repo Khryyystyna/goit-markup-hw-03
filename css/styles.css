@@ -76,6 +76,7 @@ body {
 
 .header {
     background: var(--background-white);
+    border-bottom: 1px solid #ECECEC;
 }
 
 .header .container {
@@ -417,9 +418,9 @@ body {
     margin-right: 0;}
 
 .card-suggestions {
-    border: 1px solid #EEEEEE;
-    overflow: hidden;
-    background: var(--background-white);
+    border-right: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
     padding: 20px 24px;
 }
 
